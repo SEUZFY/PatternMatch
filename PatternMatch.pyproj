@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c82a20b9-5d1e-4dd0-b6f4-c5938eb65b9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Preprocess.py</StartupFile>
+    <StartupFile>KNN.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="KNN.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Preprocess.py" />
   </ItemGroup>
   <ItemGroup>
