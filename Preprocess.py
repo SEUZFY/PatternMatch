@@ -9,8 +9,11 @@ finally:
     file_object.close()
 
 splitor = '\t'
+mac = []
 signal = []
 for each in file_content:
+    mac.append(each.split(splitor)[1]) # mac address
     signal.append(float(each.split(splitor)[4])) # signal strength
 
-pd.DataFrame(signal).to_csv(r"D:\AlbertQ2\GEO1003\PatternMatch\Geolab.csv")
+pd.DataFrame(signal).to_csv(r"D:\AlbertQ2\GEO1003\PatternMatch\signal.csv")
+pd.DataFrame(mac).to_csv(r"D:\AlbertQ2\GEO1003\PatternMatch\mac.csv")
