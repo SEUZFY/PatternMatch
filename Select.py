@@ -1,7 +1,7 @@
 import pandas as pd
 
 # open file
-file_object = open(r"D:\AlbertQ2\GEO1003\PatternMatch\loc1_eachsecond.txt", encoding='UTF-8')
+file_object = open(r"D:\AlbertQ2\GEO1003\PatternMatch\files\loc4_input.txt", encoding='UTF-8')
 try:
     file_content = file_object.readlines() # not very huge file, use readlines() to speed up
 finally:
@@ -32,4 +32,4 @@ while(j<len(time)):
         i = j
 
 #print(len(avg_signal))
-pd.DataFrame(avg_signal).to_csv(r"D:\AlbertQ2\GEO1003\PatternMatch\loc1_each_timestamp.csv")
+pd.DataFrame(avg_signal).to_csv(r"D:\AlbertQ2\GEO1003\PatternMatch\files\loc4_each_timestamp.csv")
