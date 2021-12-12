@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c82a20b9-5d1e-4dd0-b6f4-c5938eb65b9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>KNN.py</StartupFile>
+    <StartupFile>Select.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Preprocess.py" />
+    <Compile Include="Select.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|Scripts" />
